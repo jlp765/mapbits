@@ -42,6 +42,11 @@
 ##    f = BitMap(Mask35, 3)
 ##    g = BitMap(Mask02, 3)
 ##
+##  # Now just set/get integer values using variables y,x,w,....
+##  echo "x is: ",x.toHex
+##  y.set(14)  
+##  #y.set(200)    this raises an exception
+##
 ## Note: ``y`` (using ``Mask47``) specifies 4 bits are mapped to variable ``y``, so setting ``y`` to 
 ## an int value greater than 15 (0xf) raises an ``[OverflowError]`` exception
 
