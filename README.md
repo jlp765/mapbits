@@ -20,7 +20,7 @@ boundary, only for mapping within a single byte.
 
 Example:
 
-```
+```nim
  #=======  =======   ======================
  #         bits:     7  6  5  4  3  2  1  0   
  #-------  -------   ----------------------
