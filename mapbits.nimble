@@ -2,7 +2,7 @@
 name: "mapbits"
 version: "1.0"
 author: "James Parkinson"
-description: "Nim REPL - a sandbox for testing Nim code"
+description: "Access binary mapped portions of bytes using int variables"
 license: "MIT"
 
 [Deps]
