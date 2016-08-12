@@ -4,7 +4,7 @@ Access mapped portions of bytes as int variables
 A library to simplify mapping sub-byte portions of structures to/from int values,
 allowing every interaction to be done using int rather than char-sized values.
 This module should help simplify working with binary data, e.g. when parsing binary 
-data, or working with memory mapped files (`memfiles module<docs/memfiles.html>`_)
+data (`parseFixed <http://github.com/jlp765/parsefixed>`_), or working with memory mapped files (`memfiles module<docs/memfiles.html>`_)
 
 Each portion of a byte is represented by an ``int`` value that is
 mapped to/from the portion of the byte.
